@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">  <!-- To tell browser that we are going to make this web page in english language -->
+<head>
+
+  <!-- what is metadata => data about data => We are going to tell our browser that here's data that your need to know about this web page => these are details of this webpage please look at them-->
+  <meta charset="UTF-8"> <!--character scheme jo ki haar ek hex value ke sath ek symbol attach krti hai and what it does is it allows us store special character  -->
+
+  <meta http-equiv="X-UA-Compatible" content="IE=edge"> <!--this is a special which we write so that our web page well with internet explorer. -->
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- comes into picture when we are working on the responsivess of the web page. that the page look responsive and it cover the whole device width and height. for that we are going to use this viewport -->
+
+
+  <title>Digital Nomad</title>
+  
+  <!-- For External Styling use link tag -->
+  <!-- We can link different types of files 
+      1. CSS files
+      2. JS files
+      3. Font files
+      4. Image files
+      5. Video files
+      6. Audio files
+      7. Other files (ya fir kisi or extension mein files hain unko link krne ke liye)     
+  -->
+
+  <!-- href => hyper reference hai yeh
+      what is use of hyper reference => it is used to connect to any other resource. matlb tumein reference provide krni hai ki yeh cheez kahan se milegi.
+      aab humein reference dalni hai => aab mein yahan reference kese dal skta hun =>
+      yahan to mere css ki file jo hai it is coming to me via CDN(content delivery network) or any another server.
+      CDN => content delivery network
+      content delivery network => it is used to deliver the content of the web page to the browser.
+      Why do we use CDN because i can also store in local file system => it is used to reduce the load on the server. 
+
+
+
+  -->
+  <link rel="stylesheet" href=""> 
+
+
+
+
+  <!-- internal CSS styling type example 
+  jab hamare pas inline styling thi to humne internal styling kyun ki. 
+  just to make oveer code readable and easy to understand.
+  -->
+  <!-- head tag ke andar and head tag khatam hone se pehle and sab metadata ke baad, we can add style tag here to do internal styling -->
+  <style>
+    /* jo body hai nah uske pakad or uska background color krde #f2f2f2 */
+    body{
+      background-color: #f2f2f2;
+      text-align: center;
+    }
+    /* agar mein ismein yeh keh dun ki jo paragraph 'p'  hai nah uske pakad or jitne bhi 'p' hain uska let's say color krde as below */
+    p{
+      color: rgba(247, 0, 0, 0.642);
+      background-color: darkblue;
+    }
+  </style>
+
+
+</head>
+<body>
+     <!-- 
+      Styling Types =>
+      1. inline => it will be attached to the element
+      2. external => it will be attached to the css file
+      3. internal => it will be attached to the element
+
+     -->
+    <h1 style="color: green;">Hello World</h1> <!-- inline styling -->
+    <p>Lorem ipsum dolor sit amet.</p>
+
+    <h2>This is a heading</h2>
+</body>
+</html>

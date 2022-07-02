@@ -1,0 +1,106 @@
+<!-- 
+    this is how you show multiline comments in html 
+    press command and slash(/) all together
+ -->
+
+ <!-- NOTES
+    Extensions used => prettier and live server
+    live server => it creates a loop back address and we can call it a local host.it stands for http://127.0.0.1/. It created a server in a machine which is live (hot reload)
+    HTML Tag 
+    HEAD Tag => TITLE Tag, Metadata => Data about Data
+    BODY Tag => H1, P Tag
+    Title Tag => What is the naeme of the document
+    Every Tag has some semantic meaning behind. 
+    Why there is need to tell it to the webpage tell 
+    Web page can understand it better and provide a better user experience. When crawler will be on web page. It will come to know about which tags are important and which are not and will increase the rank in its database. Web crawler will come to know the meaning behind the tags and will help in SEO.
+
+    URL => can be static and dynamic
+    same domain 
+    What is Domain Name Service? => 
+    When you go buy a domain,
+    You get some domain server names
+    if you go search www.domainwhichyoubought.com , you won't find anything, untill and unless you have attached that domain to a server. Jese hi kisi domain ko tum kisi server ke sath attach kr dete ho, you will get one ip address for that server jo domain ke sath map ho jata hai. aab tum chahe webpage ka name dalo ya ip address webpage khulega hi khulega.
+
+
+    Server => Load Balancer => API gateway
+    Fb ek ip address se to nhi chal rha hone. there are tonnes and tonnes of servers. haar ek server ke upar ek load balancer hai or load balancer ke upar ek api gateway.
+    address api gateway ka dalte hain hum basically. Api gatway saara kaam krta hai apna.
+    Load balancer saare servers pe traffic ko manage krta hai.
+    server ki ip direct nhi dalte hai . hum kya kreinge ki hum load balancer pe request krenge. load balancer fir apne aap server ki ip nikal ke aapne ka humein ek ip provide kr dega. 
+
+    There can be two types of IP addresses => Static and dynamic IP addresses.
+    In URL =>
+    http://127.0.0.1:5500/Day01/hello.html
+    URL mein this is the IP => 127.0.0.1 => This is a special type of IP. This is loop back Address. Yeh kya boltahai ,yeh hamare system ko bta rha hai, networking mechanism ko bta rha hai, humare router ko bta rha hai, ki tumne yeh request ko kahin baar nhi bhejna hai, iska answar mere pas hi pda hai. whatever I am going to ask you iska answer mere pas hi pda hai.
+    Port => 5500, har ek device mein there are around 65000 ports. There is diffeence between physical and logical ports and these are logical ports. Har ek application jo ek operating system ke andar run kr rhi hai, it runs on a specific port taaki uska communication baaki koi application kharab nah kre. agar mein bol deta hun tum do application ko same operating system pe chala rhe ho or vo resources bhi same hi use kr rhein hain. How will you diffrentiate ki kaunse process ne kya kya kra hai? uske liye there is port jo ki hum attach/bind kr dete hain with a particular processs taki isko unique rakha ja ske or baaki chezein ismein interfare nah krein. 5500 is the port jo live server humein de rha hai. Live server apne se ek port find kr ke deta hai jo hi open ho or hum de deta hai. 
+    Day01/hello.html => Name of our folder and page
+
+    According to the syntax, there are two types of tags =>
+    Opening and closing Tags => head tag, body tag eg. <head></head>
+    Self Closing tag =>Image Tag eg. <img />,<img>, <br/>(syntax)
+
+    img Tag => alt is a property of img tag, which tell us  ki tumari image ka alternate text hai. src will tell us about the source or destination. src => kahan se milegi/aayegi humein image. src mein meine dynamic source dala hai, jo ki ek url hai. Static source hum locally image ko download kr ke hum usko use kr skte hain 
+    destination => kahan ko jayegi
+
+    Network call are always heavier then memory calls. 
+    Local host is fastest web server.
+
+    What is pixel? => it is size element
+    What is screen? => it's a two dimensional array
+
+    Nesting of is possible in certain situations
+
+
+    What have we learned so far=>
+
+    Comments/Muilt-line comment
+    Doctype HTML
+    Human body structure of HTML 
+    Head tag
+    Body tag
+    Attributes => certain changes in UI/UX
+    Stack Memory/Heap Memory
+    asyncronus for javascript
+    runtime enviornment
+    state for react
+    primary id for databases
+    DOM
+    Web Crawlers
+
+
+
+
+ -->
+<!DOCTYPE html> <!-- To tell browser that we use html5 file -->
+<html>
+
+    <head>
+        <title>Hello World !</title>
+    </head>
+
+    <body style="background-color: whitesmoke; font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;">
+        <h1 style="font-size: 20px; text-align: center;">This is a H1 Heading</h1>
+        <h2>This is a H2 Heading</h2>
+        <h3>This is a H3 Heading</h3>
+        <h4>This is a H4 Heading</h4>
+        <h5>This is a H5 Heading</h5>
+        <h6>This is a H6 Heading</h6>
+        <strong>
+            <i>
+                 <p>
+                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quis unde eaque illo debitis voluptatem, modi delectus
+                    porro repudiandae doloremque dolor sit labore repellendus, minima enim necessitatibus! Fugiat nisi eligendi in!
+                </p>
+            </i>
+        </strong>
+        <br />
+        <a style="color: burlywood;" href="https://summerofcode.withgoogle.com/" target="_blank">GSOC</a> <!-- example of inline styling -->
+        <br />
+        <img src="https://images.unsplash.com/photo-1587402092301-725e37c70fd8?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8cHVwcHklMjBkb2d8ZW58MHx8MHx8&w=1000&q=80"
+            alt="hello" width="200px" height="200px">
+        <br />
+        <!-- <img src="dog.jpeg"alt="hello" width="200px" height="200px"> -->
+        
+    </body>
+
+</html>

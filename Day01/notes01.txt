@@ -1,0 +1,69 @@
+WHat  is HTML
+It is a very easy markup language. Let me explain you what HTML is? 
+
+
+
+How to create folders and add files to that folder in Vscode? =>
+
+Open Vscode
+you will see a screen with a welcome page
+Please cancel all of those pages
+Create a folder name MERN
+Create a github repo of your code for version control
+You can create new folder or add files to this folder using extension eg. hello.html, index.js, styles.css 
+html is the extension to store html pages. you can also use htm but html is prefered.
+
+
+
+What is Html? => 
+
+<!-- HTML stands for Hyper Text MarkUp language -->
+
+
+
+What are the benefits of using good IDE? =>
+
+It gives you syntactic help. so, whenever you are like coding something and miss something it will show you in the form of colors that maybe you are missing something, maybe something is wrong here.  
+"Prettier Extension" 
+
+
+
+what can we do with Html?
+So everyone will tell you Html is Hyper text MarkUp Language. But what is a MarkUp Language?
+What is difference between MarkUp Language and Programming Language? =>
+
+In MarkUp Language => A markup language is a language in which we use certain tags to display certain things and those tags has some kind of semantic meaning whereas,
+In Programming Language => we write our business logic. We write our logic that how it is going to work functionally? MarkUp Language has nothing to do with functionality. It is purely based upon the tags and their properties and how they are going to display on the screen?
+
+
+
+So I just Comment this thing => So how can i Comment out this thing? => 
+
+<!-- This is a Comment -->
+Press command and slash(/) all together. So it will comment out this thing.
+
+
+
+Why we use Comments?
+
+To make our code more readable.
+To explain what are we going to use in our code. 
+As someone are coming from C, C++ background you might have used "//" or you might have used /**/ as well. So, there are different ways in which you write comments in different Programming languages, in different Scripting languages and in different Markup languages. So, Html is a Markup Language. 
+
+
+
+So from where we start Html. what is use of Html?
+How we save file inside Vscode? =>
+
+let's save the file inside Vscode. using " command + s " all together.
+
+
+
+
+  
+
+
+
+
+
+

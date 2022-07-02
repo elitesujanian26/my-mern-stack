@@ -1,0 +1,43 @@
+Theory
+
+Creating Index.html File =>
+
+
+Use case of Index.html => What problem does is
+
+whenever you are requesting a server => 
+you are going to create a https connection first
+so, from the client side you are going to send a http request to a server 
+then you will do a three way handshake.
+after 3-way handshake client side comes to know that data is coming from ab authentic source.
+
+now, if client say  let me go to www.facebook.com but facebook.com pe jaane ke baad page kaunsa display hoga.
+to solve this issue we have something known as index.html
+first name is going to index extension can js , php , html
+
+
+client ne kuch request kre data ke liye server se
+server ne respond back kra
+Now the asyncronous term will come here.
+client ne req bheji or in return client ko server se respond kiya 
+Client server model exist . Why? =>
+because bahut saara hidden data,business logic hota hai jisko client ko mtlb nhi hota so server kind off creates a absraction around business logic which is called server side coding.
+
+what is Server?
+laptop mein jo hardware hai, vo hi hardware server mein hai
+8 Gb Ram
+OS => Operating System
+User managemement 
+or basic other requirements hai laptop ki vo hi server ki requirements hain
+
+server connect kr ke dikhenge AWS ka. taki hum deply kr sakhein production mein cheezein.
+
+Why CDN server is fast? =>
+because CDN server uses cache memory(5mb - 32mb). Cache is the fastest form of memory. cache ke fast koi memory nhi hai or bahut easily acces hota hai Cpu ko cache ka bahut jaldi respnse aata hai.
+CDN kabhi bhi ek server pe nhi chal rha hota hai, vo multple server pe chalta hai.
+
+
+Asyncronous
+
+Hum Top Down Approach follow krtein hai jab bhi HTML ka page aata hai. line by line render. 
+
